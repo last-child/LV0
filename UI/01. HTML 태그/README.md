@@ -36,3 +36,51 @@
 #### \<a\> 태그의 target 속성은 링크된 문서가 어디에 열릴지를 지정한다.
 #### 속성 값이 '_self'이면 현재 페이지가 새로운 내용으로 대체된다.
 #### 속성 값이 '_blank'이면 링크된 문서가 새로운 창에서 열리게 된다.
+
+<BR>   
+<BR>   
+<BR>   
+<BR>   
+<BR>   
+
+## 03. Media 태그
+
+<br>   
+
+```html
+<img src="lemon.png" alt="레몬" title="노란 과일" width="300px" height="300px">
+```
+
+<br>   
+
+```html
+<audio autoplay controls loop>
+  <source src="audio.mp3" type="audio/mp3">
+  <source src="audio.ogg" type="audio/ogg">
+</audio>
+```
+
+<br>   
+
+```html
+<video autoplay loop muted width="300" height="300">
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.webm" type="video/webm">
+</video>
+```
+
+<br>    
+
+#### \<img\> 태그의 alt 속성은 이미지가 표시되지 않을 때 대체하는 텍스트 설명을 지정한다.
+#### title 속성은 이미지 위에 마우스 포인터를 올려놓을 때 나타나는 텍스트 설명을 지정한다.
+
+<br>   
+
+#### 브라우저마다 지원하는 멀티미디어 파일의 포맷이 달라, 콘텐츠가 특정 브라우저에서 호환되지 못할 수 있다.
+#### 멀티미디어 콘텐츠를 가능한 많은 브라우저에 제공하기 위해 여러 포맷의 파일을 준비하고,
+#### 위와 같은 방식으로 \<source\> 태그를 \<audio\> 태그나 \<video\> 태그 내에 명시한다.
+
+<br>   
+
+#### controls 속성은 사용자에게 오디오나 비디오를 제어할 수 있는 인터페이스를 제공한다.
+#### 해당 속성이 없으면 사용자는 재생, 일시 정지, 볼륨 조절 등의 제어 기능을 이용할 수 없다.
