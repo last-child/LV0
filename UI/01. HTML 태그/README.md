@@ -84,3 +84,44 @@
 
 #### controls 속성은 사용자에게 오디오나 비디오를 제어할 수 있는 인터페이스를 제공한다.
 #### 해당 속성이 없으면 사용자는 재생, 일시 정지, 볼륨 조절 등의 제어 기능을 이용할 수 없다.
+
+<br>   
+<br>   
+<br>   
+<br>   
+<br>   
+
+## 04. Table 태그
+
+<br>   
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>국가</th> <th>수도</th> <th>인구 (만명)</th> <th>면적 (만km²)</th> <th>공용어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>대한민국</td> <td>서울</td> <td>5,178</td> <td>10.0</td> <td>한국어</td>
+    </tr>
+    <tr>
+      <td>일본</td> <td>도쿄</td> <td>12,596</td> <td>37.8</td> <td>일본어</td>
+    </tr>
+    <tr>
+      <td>미국</td> <td>워싱턴 D.C.</td> <td>33,189</td> <td>952.5</td> <td rowspan="3">영어</td>
+    </tr>
+    <tr>
+      <td>영국</td> <td>런던</td> <td>6,664</td> <td>24.4</td>
+    </tr>
+    <tr>
+      <td>호주</td> <td>캔버라</td> <td>2,549</td> <td>769.2</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+<br>   
+
+![image](https://github.com/last-child/FE/assets/98595054/858b9ba2-c9f9-4a18-a81e-579e2b9d74c0)
