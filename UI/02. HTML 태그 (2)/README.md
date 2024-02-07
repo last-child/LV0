@@ -128,4 +128,4 @@
 
 <br>   
 
-![image](https://github.com/last-child/FE/assets/98595054/b8eb732e-f5b4-4d05-8f2c-8e93b310285a)
+<img src="https://github.com/last-child/FE/assets/98595054/b8eb732e-f5b4-4d05-8f2c-8e93b310285a" width="600px">
