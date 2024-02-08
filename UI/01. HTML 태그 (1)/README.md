@@ -25,8 +25,8 @@
 
 ```html
 <ul>
-  <li><a href="www.naver.com" target="_self">네이버</a></li>
-  <li><a href="www.google.co.kr" target="_blank">구글</a></li>
+  <li><a href="http://www.naver.com" target="_self">네이버</a></li>
+  <li><a href="http://www.google.co.kr" target="_blank">구글</a></li>
   <li><a href="index.html">홈으로</a></li>
 </ul>
 ```
