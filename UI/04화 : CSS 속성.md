@@ -100,12 +100,60 @@ a:active {
 
 <br>   
  
-#### box-sizing 속성을 통해 요소의 길이(widht, height)가 계산되는 방식을 조정할 수 있다.
-#### 속성 값이 기본 값인 `content-box`이면 요소의 길이는 내용(content)의 지정된 길이만큼 계산한다.
+#### box-sizing 속성을 통해 내용(contents)의 길이(widht, height)가 계산되는 방식을 조정할 수 있다.
+#### 속성 값이 `content-box`이면 내용(content)의 길이는 width와 height 속성의 지정 값만큼 조정된다.
 #### 요소의 전체 크기는 패딩(padding)과 테두리(border)를 추가하기 때문에 지정 값보다 커질 수 있다.
 
 <br>   
 
-#### 속성 값이 `border-box`이면 요소의 길이는 패딩(padding)과 테두리(border)도 포함한다.
-#### 이때 내용(content)의 실제 길이는 지정된 길이에서 패딩이나 테두리를 제외한 값이 된다.
-#### 요소에 패딩과 테두리를 추가해도 요소의 전체 크기를 지정 값만큼 설계할 수 있다.
+#### 속성 값이 `border-box`이면 내용(content)의 길이는 지정 값에서 패딩이나 테두리를 제외한 값이 된다.
+#### 요소에 패딩(padding)과 테두리(border)를 추가해도 전체 크기를 지정 값만큼 설계할 수 있게 된다.
+
+<br>   
+<br>   
+<br>   
+<br>   
+<br>   
+
+## 04. Display
+
+<br>   
+
+```css
+.red {
+  display: inline;
+  border: 2px solid red;
+}
+
+.blue {
+  display: block;
+  width: 500px;
+  height: 200px;
+  border: 2px solid blue;
+  padding: 5px;
+  margin: 10px;
+}
+
+.purple {
+  display: inline-block;
+  width: 500px;
+  height: 200px;
+  border: 2px solid purple;
+  padding: 5px;
+  margin: 10px;
+}
+```
+
+<br>   
+
+#### `inline` 요소는 한 줄에 나란히 수평 방향으로 배치되며, 컨테이너의 너비에 따라 줄바꿈될 수 있다.
+#### 요소의 크기는 내용(content)에 의해서만 결정되며, width와 height 속성을 통해 조정할 수 없다.
+
+<br>   
+
+#### `block` 요소는 한 줄에 하나씩 수직 방향으로 배치되며, 보통 컨테이너의 너비만큼 차지하려 한다.
+#### width와 height 속성으로 요소의 크기를 조정할 수 있으며, margin과 padding을 모두 적용할 수 있다. 
+
+<br>   
+
+#### `inline-block` 요소는 `inline` 요소처럼 수평 방향으로 배치되며, `block` 요소처럼 크기를 직접 조정할 수 있다.
